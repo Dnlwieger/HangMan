@@ -2,44 +2,36 @@
 <html>
 <head>
 	<title>Pokemon Hang Man</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
-<h1>Pokemon Hangman!</h1>
+
 <body>
-<script type="text/javascript">
-	
-var Pokemon = ["pikachu", "charmander", "squirtle", "pidgey"
-];
-var pokemon = pokemon[Math.floor(Math.random()*items.length)];
-}
-document.onkeyup = function() {
-var userguess = String.fromCharCode(event.keyCode).toLowerCase(); }
+
+<img src="assets/images/pokehead1.png" align="middle">
+
+<br><b></b>
+
+<p> Use your Pokemon knowledge to guess the... POKEMON!!!</p>
+
+<br> 
+<p> Press any key to get started!</p>
+<br>
 
 
-// console.log(userguess);
-
-// function hangManguess(userguess){
-// 	var guess = "";
-// }
-
-// switch (userguess) {
-// 	case "p":
-// 	return console.log("pika");
-// 	break;
-// 	case "i":
-// 	return console.log("ika");
-// 	case "k":
-// 	case "a":
-// 	case "c":
-// 	case "h":
-// 	case "u":
-// 	result = "yes";
-// 	break;
-// 	return guess;
-// }
+<br><br> <br> 
+<p><span id="word"> </span></p>
+<br><br>
+<p>  Letter's guessed so far: <span id= "usedImageDisplay"> </span> </p>
+<br>
+<p>No. of Lives Left: <span id= "livesDisplay"> </span> </p>
+<br>
+<p> Wins: <span id="winsDisplay"> </span></p>
 
 
-
-</script>
+<script type="text/javascript" src="assets/javascript/game.js"> </script>
 </body>
 </html>
+
+
