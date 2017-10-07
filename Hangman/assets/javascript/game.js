@@ -107,4 +107,4 @@ checkMatch();
 checkWins();
 
 console.log(userGuess);
-}	        }
+}	 }
